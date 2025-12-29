@@ -6,13 +6,24 @@ Build a machine learning model to **predict house price per unit area** using re
 ---
 
 ## 📊 Dataset
-- **414 rows × 8 columns**
-- Key features:
-  - House age  
-  - Distance to nearest MRT station  
-  - Latitude & longitude  
-  - Transaction date  
-- **Target:** `Y house price of unit area`
+
+This project uses the **Real Estate Valuation Data Set** from the UCI Machine Learning Repository.  
+The data was collected from homes in **New Taipei City, Taiwan (2012–2013)** and contains **414 rows × 8 features**.
+
+🔗 Dataset Source:  
+- UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Real+estate+valuation+data+set  
+- Kaggle Mirror: https://www.kaggle.com/datasets/smitisinghal/real-estate-dataset
+
+📌 Target variable  
+- `Y house price of unit area`
+
+📌 Example features  
+- `X1 transaction date`  
+- `X2 house age`  
+- `X3 distance to nearest MRT station`  
+- `X5 latitude`  
+- `X6 longitude`
+
 
 ---
 
